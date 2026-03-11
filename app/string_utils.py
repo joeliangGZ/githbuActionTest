@@ -18,4 +18,5 @@ def is_palindrome(s: str) -> bool:
     clean = "".join(s.split()).lower()
     # add something here
     # test develop1
+    # test removed the duplicate workflow.
     return clean == clean[::-1]
