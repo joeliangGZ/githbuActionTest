@@ -16,4 +16,5 @@ def count_words(s: str) -> int:
 
 def is_palindrome(s: str) -> bool:
     clean = "".join(s.split()).lower()
+    
     return clean == clean[::-1]
