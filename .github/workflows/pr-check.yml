@@ -3,7 +3,6 @@ name: PR Check
 on:
   pull_request:
     branches: [main, develop]
-  pull_request_target:
 
 jobs:
   lint-and-test:
